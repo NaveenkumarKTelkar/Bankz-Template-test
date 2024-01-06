@@ -1,0 +1,170 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalnia:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(71, 70, 70);
+}
+header{
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+header>h1{
+    padding: 20px;
+}
+header>nav>ul>li{ 
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{
+    cursor: pointer;
+    color: lightgreen;
+}
+header>div>button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgreen;
+}
+#signup, #login, .subscribe>button:hover{
+    background-color: transparent;
+    color: lightgreen;
+}
+#login:hover, #signup:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.mastercard, .Registration{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 50px;
+    color: white;
+}
+
+.mastercard>div, .Registration>div{
+    width: 50%;
+    text-align: start;
+    gap: 20px;
+    padding: 40px;
+}
+.mastercard>div>h1, .Registration>div>h1{
+    font-size: 40px;
+}
+.empty{
+    height: 300px;
+    width: 300px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.regi-img img{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 400px;
+}
+.subscribe{
+    margin: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+.subscribe>input{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.subscribe>button{
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: 1px solid lightgreen;
+
+}
+.customer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    gap: 20px;
+    color: white;
+}
+.customer>p{
+    text-align: center;
+    color: white;
+    padding: 10px 250px;
+    line-height: 2;
+}
+.container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+    width: fit-content;
+}
+.cards{
+    background-color: #5f5e5e91;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.images img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid lightgreen;
+}
+.card-row2{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.deatils{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+.deatils button{
+    background-color: transparent;
+    color: lightgreen;
+    padding: 10px;
+    border-style: none;
+    border-bottom: 2px solid lightgreen;
+}
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    gap: 20px;
+}
+footer>div{
+    padding: 10px;
+    text-align: justify;
+    margin: 50px;
+    line-height: 2;
+}
